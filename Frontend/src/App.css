@@ -1,229 +1,309 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
 }
 
 .container {
-  margin: auto;
-  width: 70%;
-  display: flex;
-  flex-direction: column;
+	margin: auto;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
 }
 
 .header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 0;
 }
 
 .title {
-  font-weight: 300;
+	font-weight: 300;
 }
 
 .pages {
-  display: flex;
-  column-gap: 0.8rem;
+	display: flex;
+	column-gap: 0.8rem;
 }
 
 .pages button {
-  background: none;
-  border: 1px solid lightgray;
-  padding: 0.6rem 1rem;
-  border-radius: 0.4rem;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: 0.2s;
+	background: none;
+	border: 1px solid lightgray;
+	padding: 0.6rem 1rem;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	font-size: 0.9rem;
+	transition: 0.2s;
 }
 
 .pages button:hover {
-  background-color: rgb(228, 228, 228);
+	background-color: rgb(228, 228, 228);
 }
 
 .auth {
-  display: flex;
-  column-gap: 0.8rem;
+	display: flex;
+	column-gap: 0.8rem;
 }
 
 .auth button {
-  background: none;
-  border: 1px solid lightgray;
-  padding: 0.6rem 1rem;
-  border-radius: 0.4rem;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: 0.2s;
+	background: none;
+	border: 1px solid lightgray;
+	padding: 0.6rem 1rem;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	font-size: 0.9rem;
+	transition: 0.2s;
 }
 
 .auth button:hover {
-  background-color: rgb(228, 228, 228);
+	background-color: rgb(228, 228, 228);
 }
 
 .hr {
-  height: 1px;
-  width: 100%;
-  background-color: lightgray;
-  margin-bottom: 4rem;
+	height: 1px;
+	width: 100%;
+	background-color: lightgray;
+	margin-bottom: 4rem;
 }
 
 .auth-form {
-  width: 30rem;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
+	width: 30rem;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
 }
 
 .auth-form input {
-  height: 3rem;
-  border: 1px solid lightgray;
-  border-radius: 0.4rem;
-  margin-bottom: 0.5rem;
+	height: 3rem;
+	border: 1px solid lightgray;
+	border-radius: 0.4rem;
+	margin-bottom: 0.5rem;
 }
 
 .form-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .reg-button {
-  border: none;
-  border-radius: 0.4rem;
-  font-size: 1rem;
-  color: white;
-  background-color: navy;
-  padding: 0.7rem 1.1rem;
-  cursor: pointer;
-  transition: 0.2s;
+	border: none;
+	border-radius: 0.4rem;
+	font-size: 1rem;
+	color: white;
+	background-color: navy;
+	padding: 0.7rem 1.1rem;
+	cursor: pointer;
+	transition: 0.2s;
 }
 
 .reg-button:hover {
-  background-color: blue;
+	background-color: blue;
 }
 
 .suggestion a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .login-button {
-  border: none;
-  border-radius: 0.4rem;
-  font-size: 1rem;
-  color: white;
-  background-color: navy;
-  padding: 0.6rem 1.1rem;
-  cursor: pointer;
-  transition: 0.2s;
+	border: none;
+	border-radius: 0.4rem;
+	font-size: 1rem;
+	color: white;
+	background-color: navy;
+	padding: 0.6rem 1.1rem;
+	cursor: pointer;
+	transition: 0.2s;
 }
 
 .login-button:hover {
-  background-color: blue;
+	background-color: blue;
 }
 
 input {
-  padding: 0.5rem 1rem;
+	padding: 0.5rem 1rem;
 }
 
 .form-bottom-compose {
-  display: flex;
-  justify-content: flex-end;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .send-button {
-  border: none;
-  border-radius: 0.4rem;
-  font-size: 1rem;
-  color: white;
-  background-color: navy;
-  padding: 0.6rem 1.1rem;
-  cursor: pointer;
-  transition: 0.2s;
+	border: none;
+	border-radius: 0.4rem;
+	font-size: 1rem;
+	color: white;
+	background-color: navy;
+	padding: 0.6rem 1.1rem;
+	cursor: pointer;
+	transition: 0.2s;
 }
 
 .send-button:hover {
-  background-color: blue;
+	background-color: blue;
 }
 
 .auth-form textarea {
-  height: 15rem;
-  border: 1px solid lightgray;
-  border-radius: 0.4rem;
-  margin-bottom: 0.5rem;
-  resize: none;
-  padding: 0.5rem 0.5rem;
+	height: 15rem;
+	border: 1px solid lightgray;
+	border-radius: 0.4rem;
+	margin-bottom: 0.5rem;
+	resize: none;
+	padding: 0.5rem 0.5rem;
 }
 
 .inbox-span {
-  color: white;
-  background-color: black;
-  padding: 0.2rem 0.8rem;
-  border-radius: 100px;
+	color: white;
+	background-color: black;
+	padding: 0.2rem 0.8rem;
+	border-radius: 100px;
 }
 
 .inbox-area h2 {
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  font-weight: 400;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	font-weight: 400;
 }
 
 .inbox-area p {
-  margin-top: 1.5rem;
+	margin-top: 1.5rem;
 }
 
 hr {
-  margin: 1rem 0;
+	margin: 1rem 0;
 }
 
 .inbox-bottom {
-  margin-top: 1rem;
-  display: flex;
-  column-gap: 0.5rem;
+	margin-top: 1rem;
+	display: flex;
+	column-gap: 0.5rem;
 }
 
 .inbox-bottom button {
-  background: none;
-  border: 1px solid lightgray;
-  padding: 0.6rem 1rem;
-  border-radius: 0.4rem;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: 0.2s;
+	background: none;
+	border: 1px solid lightgray;
+	padding: 0.6rem 1rem;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	font-size: 0.9rem;
+	transition: 0.2s;
 }
 
 .inbox-bottom button:hover {
-  background-color: rgb(228, 228, 228);
+	background-color: rgb(228, 228, 228);
 }
 
 .error-message {
-  color: red;
+	color: red;
 }
 
 .nf-area {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
 }
 
 .nf-area h2 {
-  font-size: 2rem;
-  font-weight: 500;
+	font-size: 2rem;
+	font-weight: 500;
 }
 
 .options {
-  display: flex;
-  column-gap: 1rem;
+	display: flex;
+	column-gap: 1rem;
 }
 
 .options a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 button.active {
-  background-color: #ddd;
+	background-color: #ddd;
+}
+
+.delete-button {
+	background: none;
+	border: 1px solid red;
+	padding: 0.6rem 1rem;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	font-size: 0.9rem;
+	transition: 0.2s;
+	color: red;
+}
+
+.small-delete {
+	background: none;
+	border: 1px solid red;
+	padding: 0.6rem 1rem;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	font-size: 0.9rem;
+	transition: 0.2s;
+}
+
+.all-inbox {
+	display: flex;
+	flex-direction: column;
+}
+
+.single-inbox {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 4rem;
+}
+
+.last-area {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	column-gap: 1rem;
+	padding: 0.5rem 0.5rem;
+}
+
+.last-area button {
+	height: 100%;
+	padding: 0.7rem 0.7rem 0.4rem 0.7rem;
+}
+
+.last-area button img {
+	height: 80%;
+}
+
+.last-area button:hover {
+	background-color: pink;
+}
+
+.all-inbox hr {
+	margin: 0;
+}
+
+.svg-nav {
+	display: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.title {
+		display: none;
+	}
+
+	.svg-nav {
+		display: block;
+	}
+
+	.text-nav {
+		display: none;
+	}
+
+	.container {
+		width: 95%;
+	}
 }
